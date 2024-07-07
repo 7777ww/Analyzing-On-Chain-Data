@@ -1,6 +1,8 @@
 # Analyzing-On-Chain-Data
 地址資料與價格資料用csv檔儲存。
 Function包括兩個主要部分：數據檢索(RetrieveData.py)和數據計算分析(calulate.py)。首先從區塊鏈 API 獲取比特幣地址的交易數據，然後對這些數據進行分析和計算技術指標如 RSI、IRR 等。最後，將結果更新到目標數據表中。
+
+
 RetrieveData.py
 通過調用區塊鏈 API 獲取指定比特幣地址的交易數據
 1. get_url(bitcoin_address, limit=5000)
